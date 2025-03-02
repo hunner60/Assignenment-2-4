@@ -1,6 +1,6 @@
 # input statements
-salary = float(input())
-numDependents = float(input())
+salary = float(input("Enter salary: "))
+numDependents = int(input("Enter number of dependents: "))
 
 # tax calculations
 state_tax = salary * 0.065  # State tax rate of 6.5%
