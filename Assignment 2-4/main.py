@@ -1,6 +1,6 @@
 # input statements
-salary = float(input("Enter salary: 60,000"))
-numDependents = int(input("Enter number of dependents: 3 "))
+salary = float(input("Enter salary: "))
+numDependents = int(input("Enter number of dependents: "))
 
 # tax calculations
 state_tax = salary * 0.065 
@@ -17,8 +17,6 @@ total_withholding = state_tax + federal_tax + dependent_deduction
 takeHomePay = salary - total_withholding
 
 #ouptut statements
-
-# print statements
 print("State Tax: $" + str(state_tax))
 print("Federal Tax: $" + str(federal_tax))
 print("Dependents: $" + str(dependent_deduction))
